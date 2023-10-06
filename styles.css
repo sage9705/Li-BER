@@ -1,0 +1,132 @@
+/* styles.css */
+@import url("bootstrap.min.css");
+
+
+/* General styles */
+.background-white {
+    background-color: #f8f9fa;
+    color: #333333;
+}
+
+.font-size-16 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.welcome-label {
+    font-size: 36px;
+    font-weight: bold;
+    color: rgb(9, 138, 95);
+    margin: 20px 0;
+    text-align: center;
+  }
+/* Button styles */
+.login-button {
+    background-color: #28a745;
+    color: white;
+    font-size: 14px;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+.login-button:hover {
+    background-color: #343a40;
+}
+
+
+QMainWindow {
+    background-color: #f8f9fa;
+}
+
+QLabel {
+    font-size: 18px;
+    margin: 10px;
+}
+
+
+QPushButton:hover {
+    background-color: #343a40;
+}
+
+QDialog {
+    background-color: #f8f9fa;
+}
+
+QLabel {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+
+QLineEdit, QTextEdit {
+    font-size: 14px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+QPushButton {
+    background-color: #494747;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    
+}
+
+QPushButton:hover {
+    background-color: #343a40;
+}
+
+
+QDialog {
+    background-color: #f8f9fa;
+}
+
+QLabel {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+QPushButton#tertiary-button {
+    background-color: #dc3545;
+    color: white;
+    font-size: 14px;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+QPushButton#tertiary-button:hover {
+    background-color: #a85858;
+}
+
+
+#login-button {
+    /* Bootstrap classes for success button */
+    background-color: #4a86e8;
+    color: white;
+    font-size: 16px;
+    padding: 8px 16px;
+    border-radius: 8;
+    flex: 1;
+}
+
+#login-button:hover {
+    /* Bootstrap classes for success button hover state */
+    background-color: #3d4d55;
+}
+
+#register-button {
+    /* Bootstrap classes for primary button */
+    background-color: #02c883;
+    color: white;
+    font-size: 16px;
+    padding: 8px 16px;
+    border-radius: 8;
+    flex: 1;
+}
+
+#register-button:hover {
+    /* Bootstrap classes for primary button hover state */
+    background-color: #3d4d55;
+}
